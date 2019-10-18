@@ -16,3 +16,7 @@ class EmailAddressParser
    new_array.reject{|c| c.empty?}
 end
 end
+
+#def parse
+ #   emails.split(/, | /).uniq
+ # end
